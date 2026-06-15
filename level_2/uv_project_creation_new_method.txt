@@ -1,0 +1,6 @@
+- Base setup
+uv init --python 3.13 level_2
+cd level_2
+uv sync --> this will crete the virtual enviroment
+uv add ipykernel --> earlier we usef pip install ipykernel from terminal
+uv add panda numpy matplotlib seaborn
